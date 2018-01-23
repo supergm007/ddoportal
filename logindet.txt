@@ -1,0 +1,40 @@
+education gpf- opertor-gaurav_E800919
+
+
+pla -P8443066_6000
+
+pla operator-demo_P844306
+
+--6000	8229002	60428	saumya_8229002
+
+8229002_6000
+
+ccl- C1798_6000
+
+ccl operator-saumya_C1798
+
+SELECT trea_code,ddo_code from account.login_temp where trea_code ='6000' and ddo_code=?
+select id_login from login where substr(ID_LOGIN,1,2 ) in ('C1','D1','P1');
+
+select * from login where substr(ID_LOGIN,1,2 ) in ('C1','D1','P1');
+
+select OP_DESG,OP_TYPE from user_type_master where OPERATOR_TYPE='ddo'  and OP_TYPE='91' order by op_desg;
+select * from user_type_master where OPERATOR_TYPE='ddo'  and OP_TYPE='91' order by op_desg
+
+select OP_DESG,OP_TYPE from user_type_master where OPERATOR_TYPE='ddo' order by op_desg
+
+select * from login where id_login='C1798_6000';
+
+select * from login where id_login='4263_6000';
+
+select * from login where user_type='83' ;
+
+
+update login set PASS_WORD='ca762676c74f1b27011e944093b7e929'  ,  FIRST_LOGIN_FLAG ='N' where ID_LOGIN in ('saumya_C1798');
+
+601707680
+6017980000
+select div_code,div_name,h_code from ccl_mast where trea_code='4300' and ccl_dcl ='C' and fin_year = '20172018' order by div_code
+
+select distinct trea_code, trea_name from treasury.trea_mast where substr(TREA_CODE,3,4)='00' and trea_code!='9800' order by trea_name
+
